@@ -30,8 +30,7 @@ color-detection-opencv/
 ├── README.md # This file
 
 yaml
-Copy
-Edit
+ 
 
 ---
 
@@ -44,14 +43,12 @@ Edit
 Install dependencies:
 
 bash
-Copy
-Edit
+ 
 pip install opencv-python
 Run the script:
 
 bash
-Copy
-Edit
+ 
 python color_detection.py
 Press q to quit the video window.
 
@@ -62,8 +59,7 @@ Press q to quit the video window.
 Edit the HSV range in the Python file to detect different colors:
 
 python
-Copy
-Edit
+ 
 lower = np.array([H_min, S_min, V_min])
 upper = np.array([H_max, S_max, V_max])
 📺 Video Tutorial
